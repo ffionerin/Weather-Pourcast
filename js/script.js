@@ -83,7 +83,7 @@ $("#search-btn").on("click", function (event) {
       var tempC = (tempK - 273.15).toFixed(0); // converts default Kelvin temperature to Celcius
       var weather = $("<h4>")
         .addClass("weather")
-        .text("The Tempreature in " + city + " is " + tempC + "°C.");
+        .text("The temperature in " + city + " is " + tempC + "°C.");
       console.log(weather);
 
       // Empty out the div before adding the weather for the new city
